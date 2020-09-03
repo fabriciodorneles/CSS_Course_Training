@@ -1,0 +1,29 @@
+/* for it difficult to see that the <li> tag doesn't receive class or properties. I assigned the class to the code tags on second li. */
+
+*{
+    font-family: sans-serif;
+}
+
+h1 {
+    color: brown;
+    font-family: sans-serif;
+}
+
+code {
+    color: red;
+    font-family: monospace;
+}
+
+li .second {
+    color: blueviolet
+}
+/* 
+li + li {
+    background: black;
+    color: white;
+}
+
+ol > li {
+    background: black;
+    color: white;
+} */
